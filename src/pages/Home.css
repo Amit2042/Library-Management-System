@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .home-header {
+    margin-bottom: 20px;
+  }
+  
+  .home-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px; /* Space below image */
+  }
+  
+  .home-buttons {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .home-button {
+    padding: 10px 20px; /* Padding inside buttons */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .home-footer {
+    margin-top: 20px; /* Space above footer */
+    padding: 10px; /* Padding inside footer */
+    background-color: #f1f1f1; /* Light grey background */
+    border-top: 1px solid #ddd; /* Top border */
+  }
+  
